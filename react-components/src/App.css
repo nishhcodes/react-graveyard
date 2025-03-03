@@ -1,3 +1,29 @@
+/* App style */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins, sans-serif;
+}
+
+/* App style */
+
+/* Greeting styles */
+.greeting-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* Greeting styles */
+
+/* List styles */
+.list-wrapper {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .list-container {
   background-color: slateblue;
   width: 480px;
@@ -12,3 +38,4 @@
   list-style-type: none;
   color: white;
 }
+/* list styles */
