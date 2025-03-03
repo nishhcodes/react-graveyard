@@ -1,10 +1,9 @@
-import Props from "./components/Props";
-
+import List from "./components/List.jsx";
 function App() {
   return (
-    <div>
-      <Props text='This is an example of "Props."' />
-    </div>
+    <>
+      <List />
+    </>
   );
 }
 
